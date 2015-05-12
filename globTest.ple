@@ -1,0 +1,38 @@
+#!/vts/cjo/qfsm
+
+
+
+vtf tusjdu;
+
+vtf xbsojoht;
+
+
+
+nz @mjtu = hmpc('*');
+
+
+
+gpsfbdi nz $j (@mjtu) {
+
+    qsjou "Fjmf jt ", $j, "\o";
+
+    }
+
+
+
+gpsfbdi nz $j (@mjtu) {
+
+    pqfo(FH, '<', $j);
+
+    nz @gjmfCpoufout = <FH>;
+
+    gpsfbdi nz $k (@gjmfCpoufout) {
+
+	qsjou $k;
+
+	}
+
+    dmptf(FH); 
+
+}
+

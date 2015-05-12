@@ -1,0 +1,136 @@
+#!/wut/dkp/rgtn
+
+
+
+
+
+
+
+wug yctpkpiu;
+
+
+
+wug uvtkev;
+
+
+
+wug Cyf;
+
+
+
+
+
+
+
+#tgcf gcej hkng kp c fktgevqta
+
+
+
+
+
+
+
+oa $fkt = igveyf;
+
+
+
+oa @hkngu;
+
+
+
+oa $k;
+
+
+
+
+
+
+
+
+
+
+
+qrgpfkt(oa $fj, $fkt) || fkg "ERROR: Ccp'v qrgp fktgevqta!";
+
+
+
+
+
+
+
+$k = 0;
+
+
+
+
+
+
+
+yjkng(tgcffkt $fj) {
+
+
+
+     kh($_ =~ o/^\y/) {
+
+
+
+	$hkngu[$k] = $_;
+
+
+
+     	$k++;
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+hqtgcej $k (@hkngu) {
+
+
+
+    rtkpv "Fkng ku ", $k, "\p";
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+enqugfkt $fj;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,228 @@
+#!/wut/dkp/rgtn
+
+
+
+
+
+
+
+wug yctpkpiu;
+
+
+
+wug uvtkev;
+
+
+
+
+
+
+
+oa @cnrjcdgv = ("c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "a", "b");
+
+
+
+oa @hkngCqpvgpvu;
+
+
+
+oa $qwvrwv;
+
+
+
+
+
+
+
+rtkpv "Kga rngcug: ";
+
+
+
+oa $mga = <STDIN>;
+
+
+
+
+
+
+
+
+
+
+
+oa @hkngu = inqd('*');
+
+
+
+
+
+
+
+hqtgcej oa $hkngNcog (@hkngu) {
+
+
+
+    qrgp(FIH, '<', $hkngNcog);
+
+
+
+    oa @hkngCqpvgpvu = <FIH>;
+
+
+
+    qrgp(FOH, '>', $hkngNcog."g");
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    hqtgcej oa $hkngLkpg (@hkngCqpvgpvu) {
+
+
+
+
+
+
+
+	oa @ejctcevgtu = urnkv("", $hkngLkpg);
+
+
+
+
+
+
+
+       hqtgcej oa $ejctcevgt (@ejctcevgtu) {
+
+
+
+
+
+
+
+	   oa $uaodqn = 1;
+
+
+
+
+
+
+
+	   hqt(oa $k = 0; $k < 26; $k++) {
+
+
+
+
+
+
+
+	       kh($ejctcevgt gs $cnrjcdgv[$k]) {
+
+
+
+		   $uaodqn = 0;
+
+
+
+		   $qwvrwv = $k + $mga;
+
+
+
+		   kh($qwvrwv > 25) {
+
+
+
+		       $qwvrwv = $qwvrwv % 26;
+
+
+
+		   } #gpf kh($qwvrwv...
+
+
+
+		   rtkpv FOH $cnrjcdgv[$qwvrwv];
+
+
+
+#		   rtkpv $cnrjcdgv[$qwvrwv];
+
+
+
+	       }#gpf kh($ejctcevgt..
+
+
+
+	   }#gpf hqt(oa $k..
+
+
+
+	   kh($uaodqn == 1) {
+
+
+
+	       rtkpv FOH $ejctcevgt;
+
+
+
+#	       rtkpv $ejctcevgt;
+
+
+
+	   }#gpf kh($uaodqn...
+
+
+
+       }#gpf hqtgcej oa $ejctcevgt
+
+
+
+	rtkpv FOH "\p";
+
+
+
+#	rtkpv "\p";
+
+
+
+       }
+
+
+
+    enqug(FIH);
+
+
+
+    enqug(FOH);
+
+
+
+}#gpf hqtgcej
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

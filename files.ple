@@ -1,0 +1,68 @@
+#!/vts/cjo/qfsm
+
+
+
+vtf xbsojoht;
+
+vtf tusjdu;
+
+vtf Cxe;
+
+
+
+#sfbe fbdi gjmf jo b ejsfdupsz
+
+
+
+nz $ejs = hfudxe;
+
+nz @gjmft;
+
+nz $j;
+
+
+
+
+
+pqfoejs(nz $ei, $ejs) || ejf "ERROR: Cbo'u pqfo ejsfdupsz!";
+
+
+
+$j = 0;
+
+
+
+xijmf(sfbeejs $ei) {
+
+     jg($_ =~ n/^\x/) {
+
+	$gjmft[$j] = $_;
+
+     	$j++;
+
+}
+
+}
+
+
+
+gpsfbdi $j (@gjmft) {
+
+    qsjou "Fjmf jt ", $j, "\o";
+
+    }
+
+
+
+
+
+dmptfejs $ei;
+
+
+
+
+
+
+
+
+

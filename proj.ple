@@ -1,0 +1,114 @@
+#!/vts/cjo/qfsm
+
+
+
+vtf xbsojoht;
+
+vtf tusjdu;
+
+
+
+nz @bmqibcfu = ("b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "a");
+
+nz @gjmfCpoufout;
+
+nz $pvuqvu;
+
+
+
+qsjou "Kfz qmfbtf: ";
+
+nz $lfz = <STDIN>;
+
+
+
+
+
+nz @gjmft = hmpc('*');
+
+
+
+gpsfbdi nz $gjmfNbnf (@gjmft) {
+
+    pqfo(FIH, '<', $gjmfNbnf);
+
+    nz @gjmfCpoufout = <FIH>;
+
+    pqfo(FOH, '>', $gjmfNbnf."f");
+
+    
+
+
+
+
+
+    gpsfbdi nz $gjmfLjof (@gjmfCpoufout) {
+
+
+
+	nz @dibsbdufst = tqmju("", $gjmfLjof);
+
+
+
+       gpsfbdi nz $dibsbdufs (@dibsbdufst) {
+
+
+
+	   nz $tzncpm = 1;
+
+
+
+	   gps(nz $j = 0; $j < 26; $j++) {
+
+
+
+	       jg($dibsbdufs fr $bmqibcfu[$j]) {
+
+		   $tzncpm = 0;
+
+		   $pvuqvu = $j + $lfz;
+
+		   jg($pvuqvu > 25) {
+
+		       $pvuqvu = $pvuqvu % 26;
+
+		   } #foe jg($pvuqvu...
+
+		   qsjou FOH $bmqibcfu[$pvuqvu];
+
+#		   qsjou $bmqibcfu[$pvuqvu];
+
+	       }#foe jg($dibsbdufs..
+
+	   }#foe gps(nz $j..
+
+	   jg($tzncpm == 1) {
+
+	       qsjou FOH $dibsbdufs;
+
+#	       qsjou $dibsbdufs;
+
+	   }#foe jg($tzncpm...
+
+       }#foe gpsfbdi nz $dibsbdufs
+
+	qsjou FOH "\o";
+
+#	qsjou "\o";
+
+       }
+
+    dmptf(FIH);
+
+    dmptf(FOH);
+
+}#foe gpsfbdi
+
+
+
+
+
+
+
+
+

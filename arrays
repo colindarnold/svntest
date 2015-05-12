@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my @myArray = (42, "astring?!", 12);
+
+my $aLength = @myArray;
+
+print "myArray's length is $aLength\n";
+print "@myArray = ", @myArray, "\n";
+print "$myArray[0] = ", $myArray[0], "\n";
+
+$myArray[10] = $myArray[0] + $myArray[2];
+
+$aLength = @myArray;
+
+print "myArray's length is now $aLength\n";
+print "Location 10 contains $myArray[10]\n";

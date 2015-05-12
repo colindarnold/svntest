@@ -1,0 +1,76 @@
+#!/wut/dkp/rgtn
+
+
+
+
+
+
+
+wug uvtkev;
+
+
+
+wug yctpkpiu;
+
+
+
+
+
+
+
+oa @nkuv = inqd('*');
+
+
+
+
+
+
+
+hqtgcej oa $k (@nkuv) {
+
+
+
+    rtkpv "Fkng ku ", $k, "\p";
+
+
+
+    }
+
+
+
+
+
+
+
+hqtgcej oa $k (@nkuv) {
+
+
+
+    qrgp(FH, '<', $k);
+
+
+
+    oa @hkngCqpvgpvu = <FH>;
+
+
+
+    hqtgcej oa $l (@hkngCqpvgpvu) {
+
+
+
+	rtkpv $l;
+
+
+
+	}
+
+
+
+    enqug(FH); 
+
+
+
+}
+
+
+
